@@ -10,6 +10,12 @@ namespace Day03
     {
         static void Main(string[] args)
         {
+            int number = Add3(5);
+        }
+
+        static int Add3(int x)
+        {
+            return x + 3;
         }
     }
 }
